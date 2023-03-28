@@ -7,7 +7,7 @@ metadata:
     datadoghq.com/site: https://app.datadoghq.com/dash/integration/30322/kubernetes-pods-overview?from_ts=1679997263331&to_ts=1680000863331&live=true
     
 spec:
-  type: website
+  type: service
   lifecycle: production
   owner: artist-relations-team
   system: artist-engagement-portal
