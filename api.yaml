@@ -27,12 +27,12 @@ spec:
     servers:
       - url: http://petstore.swagger.io/v1
     paths:
-      /pets:
+      /toms:
         get:
           summary: List all pets
           operationId: listPets
           tags:
-            - pets
+            - toms
           parameters:
             - name: limit
               in: query
@@ -73,12 +73,12 @@ spec:
                 application/json:
                   schema:
                     $ref: "#/components/schemas/Error"
-      /pets/{petId}:
+      /toms/{petId}:
         get:
           summary: Info for a specific pet
           operationId: showPetById
           tags:
-            - pets
+            - toms
           parameters:
             - name: petId
               in: path
