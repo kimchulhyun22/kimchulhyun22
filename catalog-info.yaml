@@ -3,6 +3,9 @@ kind: Component
 metadata:
   name: tom
   description: tom test component
+  annotations:
+    datadoghq.com/site: https://app.datadoghq.com
+    
 spec:
   type: website
   lifecycle: production
