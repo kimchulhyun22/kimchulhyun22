@@ -11,4 +11,4 @@ spec:
   dependsOn:
     - resource:default/artists-db
   providesApis:
-    - tom
+    - tom_prod
