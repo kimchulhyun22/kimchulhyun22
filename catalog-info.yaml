@@ -4,7 +4,7 @@ metadata:
   name: tom
   description: tom test component
   annotations:
-    datadoghq.com/site: https://app.datadoghq.com
+    datadoghq.com/site: https://app.datadoghq.com/dash/integration/30322/kubernetes-pods-overview?from_ts=1679997263331&to_ts=1680000863331&live=true
     
 spec:
   type: website
