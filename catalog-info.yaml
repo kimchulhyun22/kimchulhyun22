@@ -13,6 +13,3 @@ spec:
   system: artist-engagement-portal
   dependsOn:
     - resource:default/artists-db
-  providesApis:
-    - tom_prod
-    - tom_dev
